@@ -13,19 +13,33 @@
 
 <body>
 <nav>
-    <h1>Velvet Brew</h1>
 
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Contact</a></li>
+    <a href="#home" class="logo">Velvet Brew</a>
+
+    <div class="menu-toggle">
+        ☰
+    </div>
+
+    <ul class="nav-links">
+
+        <li><a href="#home">Home</a></li>
+
+        <li><a href="#about">About</a></li>
+
+        <li><a href="#menu">Menu</a></li>
+
+        <li><a href="#testimonials">Testimonials</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+        <li>
+            <button>Reserve a Table</button>
+        </li>
+
     </ul>
 
-    <button>Reserve a Table</button>
 </nav>
-<section class="hero">
+<section class="hero" id="home">
 
     <div class="hero-content">
         <span class="subtitle">PREMIUM COFFEE EXPERIENCE</span>
@@ -44,7 +58,7 @@
     </div>
 
 </section>
-<section class="about">
+<section class="about" id="about">
 
     <div class="about-image">
         <img src="images/about.jpg" alt="Coffee Shop">
@@ -84,7 +98,7 @@
     </div>
 
 </section>
-<section class="menu">
+<section class="menu" id="menu">
 
     <div class="menu-heading">
         <span class="section-tag">OUR MENU</span>
@@ -126,7 +140,7 @@
     </div>
 
 </section>
-<section class="testimonials">
+<section class="testimonials" id="testimonials">
 
     <div class="menu-heading">
         <span class="section-tag">TESTIMONIALS</span>
@@ -162,7 +176,7 @@
     </div>
 
 </section>
-<section class="contact">
+<section class="contact" id="contact">
 
     <div class="contact-left">
 
@@ -239,5 +253,6 @@
     </p>
 
 </footer>
+<script src="js/script.js"></script>
 </body>
 </html>
